@@ -1,2 +1,2 @@
 #!/bin/bash
-composer install  --yes
+composer install
