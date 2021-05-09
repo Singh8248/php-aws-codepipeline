@@ -1,2 +1,3 @@
 #!/bin/bash
-composer install
+cd /var/www/html
+composer update
