@@ -1,6 +1,7 @@
 version: 0.2
 phases:
- artifacts:
+post_build:
+  artifacts:
   type: zip
   files:
     - '**/*'
