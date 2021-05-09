@@ -17,7 +17,6 @@ phases:
    commands:
      - echo Build completed on `date`
 artifacts:
-  type: zip
   files:
     - '**/*'
-  name: vivekartifacts-$(date +%Y-%m-%d) 
+    - appspec.yml
