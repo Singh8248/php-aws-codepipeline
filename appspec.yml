@@ -3,7 +3,8 @@ os: linux
 files:
   - source: /
     destination: /var/www/html
-    overwrite: merge
+    file_exists_behavior: OVERWRITE
+    overwrite: true
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
