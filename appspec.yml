@@ -11,10 +11,14 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: scripts/buildagain.sh
+    - location: scripts/permission.sh
       timeout: 30
       runas: root
   ApplicationStartp:
     - location: scripts/start_application.sh
+      timeout: 30
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_server.sh
       timeout: 30
       runas: root
