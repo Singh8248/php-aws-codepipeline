@@ -20,4 +20,5 @@ artifacts:
   type: zip
   files:
     - '**/*'
+    - appspec.yml
   name: vivekartifacts-$(date +%Y-%m-%d) 
