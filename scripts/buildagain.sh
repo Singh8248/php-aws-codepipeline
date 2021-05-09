@@ -1,1 +1,2 @@
- - composer install
+#!/bin/bash
+composer update
