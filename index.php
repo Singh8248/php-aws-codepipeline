@@ -1,9 +1,4 @@
-<?php
-require 'vendor/autoload.php';
+<?php 
+echo "Hello World - VIVEK - This is blue Green Deploymeny";
 
-use Carbon\Carbon;
- 
-$date = Carbon::now();
-
-echo "Current Date and Time: ".$date->toDayDateTimeString();
-echo "CODE DEPLOY BY VIVEK";
+?>
