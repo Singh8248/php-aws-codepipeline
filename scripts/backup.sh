@@ -1,2 +1,2 @@
-cd /var/www/html
+cd /var/www/html/
 mv *   /tmp
