@@ -9,7 +9,6 @@ file_exists_behavior: OVERWRITE
 hooks:
   BeforeInstall:
     - location: scripts/stop_apache.sh
-    #- location: scripts/cleanup.sh
       runas: root
   AfterInstall:
     - location: scripts/start_apache.sh
