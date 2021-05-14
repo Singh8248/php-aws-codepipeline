@@ -14,7 +14,7 @@ hooks:
   AfterInstall:
     - location: scripts/start_apache.sh
       timeout: 30
-    - location: scripts/changepermission.sh
+    #- location: scripts/changepermission.sh
       runas: root
   ValidateService:
     - location: scripts/status_apache.sh
